@@ -1,0 +1,183 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+:root{
+    --color-text: rgb(241, 240, 240);
+    --color-background-dark: #222224; 
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Oswald', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 50px;
+}
+
+
+header{
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+}
+nav{
+    padding: 25px;
+    background-color: #BE3144;
+    text-align: right;
+}
+
+nav li{
+    
+    display: inline;
+}
+
+
+
+nav a{
+    padding: 0px 20px;
+    padding-top: 100%;
+    padding-bottom:25px;
+
+    text-decoration: none;
+    color: var(--color-text);
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 0px 10px;
+}
+
+a:hover{
+    background-color: #45567D;
+
+}
+
+section{
+    display: block;
+    padding: 39vh;
+    text-align: center top;
+}
+
+section#con1{
+    color: var(--color-text);
+    font-weight: bolder;
+    text-align: center;
+    padding: 34vh;
+    padding-bottom:256px ;
+    background-color: var(--color-background-dark);
+}
+
+
+
+section#con1 > div > h1{
+    font-size: 4em;
+    color: var(--color-text);
+    margin-bottom: 5px;
+}
+
+section#con1 > div >h2{
+    color:#BE2F35;
+    font-weight: lighter;
+    top: 10px;
+}
+
+
+
+section#con2{
+    background-color: #45567D;
+    padding: 0px;
+    height: 1200px;
+    padding-top: 50px;
+    position: relative;
+    z-index: 0;
+    justify-content: center;    
+}
+
+
+section#con2  > h1{
+    max-width: 640px;
+    font-weight: lighter ; 
+    font-size: 4em;
+    border-bottom: 2px solid;
+    color: var(--color-text);
+    margin-bottom: 15px;
+    position: absolute;
+    left: 50%;
+    
+
+}
+
+section#con2 > article#projetc{
+    
+    top: 88px;
+    margin: 100px 10px;
+    height: 148vh;
+    padding: 0px 586px;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+
+
+section#con2  a {
+    display: flex;
+    background-color: #383841;
+    padding: 0;
+    height: 55vh;
+    width: 25vw;
+    text-decoration: none;
+    color: var(--color-text) ;
+    align-items: end;
+    justify-content: space-around
+}
+
+/* Itens de projetos */
+
+section#con2 :nth-child(1){
+    background-image: url();
+    position: absolute;
+    left: 0vh;
+}
+
+section#con2 article#projetc > :nth-child(2){
+    position: absolute;
+    left: 74vh;
+}
+
+
+section#con2 :nth-child(3){
+    position: absolute;
+    left: 147.8vh;
+}
+
+section#con2 :nth-child(4){
+    position: absolute;
+    top: 35vw;
+    left: 0vh;
+}
+
+section#con2 :nth-child(5){
+    position: absolute;
+    top: 35vw;
+    left: 147.8vh;
+}
+
+section#con2 :nth-child(6){
+    position: absolute;
+    top: 35vw;
+    left: 74vh;
+}
+
+section#con3{
+    
+    background-color: #222224;
+    padding: 50vh;
+    padding: auto;
+}
